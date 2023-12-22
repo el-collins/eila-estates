@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-// Db schema
+// Db schema. Rules are schema
 const userSchema = new mongoose.Schema({
     username: {
         type: String,
